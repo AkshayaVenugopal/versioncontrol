@@ -26,7 +26,7 @@ public class Tab {
 	
 	        String rmax;
 	 	   double r=0,m=0;
-	 	      List  rows = driver.findElements(By.xpath("//*[@id='leftcontainer']/table/tbody/tr")); 
+	 	      List  rows = driver.findElements(By.xpath("//*[@id='rightcontainer']/table/tbody/tr")); 
 	 	      
 	 	      for(int i=1;i<rows.size();i++)
 	 	      {
